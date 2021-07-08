@@ -10,3 +10,4 @@ function create_map () {
 let spriteCat: Sprite = null
 create_map()
 create_player_cat()
+music.baDing.play()
