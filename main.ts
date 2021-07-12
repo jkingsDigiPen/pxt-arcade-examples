@@ -10,4 +10,13 @@ function create_map () {
 let spriteCat: Sprite = null
 create_map()
 create_player_cat()
-music.baDing.play()
+music.setVolume(50)
+forever(function () {
+    music.playMelody("C5 - E - D - B - ", 360)
+})
+forever(function () {
+    music.playMelody("A A A A E E G G ", 180)
+})
+forever(function () {
+    music.playMelody("A E C5 E B E G E ", 360)
+})
