@@ -23,6 +23,7 @@ let melody1 = ""
 create_map()
 create_player_cat()
 create_music()
+game.splash("Press A for music.")
 forever(function () {
     // This eventually gets out of sync with the other melodies. Have not tested to see if the others (at 360 bpm) also get out of sync with each other.
     music.playMelody(melody1, 90)
